@@ -1,0 +1,25 @@
+/*
+      
+      Dollar Grocers Style Sheet
+      Author: Adam Whitaker-Wilson
+      Date:   October 3rd 2016
+
+      Filename:         dg_styles.css
+      Supporting files: 
+   */
+   
+footer {   
+
+	clear: left;   
+	margin-left: 33%;   
+	width: 66%; 
+	}
+	
+footer address {   
+
+	color: rgb(182, 182, 92);   
+	font-size: 80%;   
+	font-style: normal;   
+	padding-top: 10px;   
+	text-align: center; 
+	} 
