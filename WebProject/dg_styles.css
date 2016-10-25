@@ -1,12 +1,31 @@
 /*
       
       Dollar Grocers Style Sheet
-      Author: Adam Whitaker-Wilson
+      Author: Adam Whitaker-Wilson and Doug Walch
       Date:   October 3rd 2016
 
       Filename:         dg_styles.css
       Supporting files: 
    */
+   
+body * {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+	width:98%;
+}
+   
+header h1 {
+	font-size: 1200%;
+	font-weight: bold;
+	text-shadow: rgb(50,50,50);
+}
+
    
 footer {   
 
