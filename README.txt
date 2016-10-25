@@ -1,4 +1,4 @@
-READ ME MOTHER FUCKER
+README for Dollar Grocers Website.
 
 Here you go!!!
 
@@ -8,7 +8,3 @@ Site References:
 2. http://www.organicacresmain.com/
 3. http://planetorganic.ca/
 4. https://www.choicesmarkets.com/department/grocery/
-
-im a fucker - adam
-
-BINGO MOTHER FUCKER, THE BASES ARE LOADED NOW, TIME TO SCORE A TOUCHDOWN WITH SOME CODE AND THROW IT IN THE BASKET
