@@ -21,7 +21,7 @@ body * {
 }
    
 header h1 {
-	font-size: 1200%;
+	font-size: 100%;
 	font-weight: bold;
 	text-shadow: rgb(50,50,50);
 }
@@ -30,6 +30,7 @@ header h1 {
 nav.horizontal {
 	background-color: rgba(187,255,65,0.6);
 	height: 40px;
+	position: fixed;
 	
 }
 
