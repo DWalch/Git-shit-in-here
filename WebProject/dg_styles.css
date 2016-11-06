@@ -69,4 +69,11 @@ footer address {
 	font-style: normal;   
 	padding-top: 10px;   
 	text-align: center; 
-	} 
+	}
+
+/* Section Image Styles */
+
+section > img{
+	max-height: 25%;
+	max-width: 25%;
+}	
