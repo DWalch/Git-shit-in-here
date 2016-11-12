@@ -1,0 +1,137 @@
+/*
+      
+      Dollar Grocers Form Styles
+      Author: Adam Whitaker-Wilson and Doug Walch
+      Date:   October 3rd 2016
+
+      Filename:         dgforms.css
+      Supporting files: 
+*/
+
+#contactform{
+	display:block;
+	width: 20%;
+	float:left;
+	position: fixed;
+	top:15%;
+	left: 5%;
+	
+}
+
+#contactsubmit{
+	text-align: center;
+	width:25%;
+}
+
+#orderform{
+	display:block;
+	width: 60%;	
+	float:left;
+	position: fixed;
+	top:15%;
+	left:35%;	
+	
+}
+
+#ordersubmit{
+	text-align: center;
+	width:25%;
+}
+
+fieldset{
+	border:none;
+	
+     
+}
+form{
+	
+}
+
+legend{
+	text-align: center;
+	padding: 1em;
+}
+
+/* Label Styles */
+#fllab{
+	float:left;
+}
+#flrlab{
+	clear:left;
+	float:left;
+}
+#orderlab{
+	
+}
+
+label{
+	padding: 2px;
+}
+
+/* Input Control Styles */
+
+#contname, #contemail{
+	width:80%;
+	float:left;
+}
+#phone{
+	width: 17%;
+	float:left;
+}
+#ordname, #ordemail{
+	width: 30%;
+	float:left;
+}
+#address{
+	width:30%;
+	float:left;
+}
+#postal{
+	width:10%;
+	float:left;
+}
+#orderfield{	
+	width:200px;
+	height:200px;
+	
+}
+
+
+/* Selection list styles */
+
+select{
+	float:left;
+	width:17.5%;
+}
+
+/* Textarea styles */
+
+#contmessage{
+	height: 200px;
+	width: 300px;
+}
+
+
+/* Validation styles */
+
+input:focus, select:focus, textarea:focus{
+	background-color: rgb(220,255,220);
+}
+
+input:focus:valid {    
+	background: rgb(220, 255, 220) url(go.png) bottom right no-repeat; 
+ 
+     -o-background-size: contain;    
+	-moz-background-size: contain;    
+	-webkit-background-size: contain;    
+	background-size: contain; 
+	}
+
+input:focus:invalid{
+	background: rgb(255, 232, 233) url(stop.png) bottom right no-repeat; 
+ 
+     -o-background-size: contain;    
+	-moz-background-size: contain;    
+	-webkit-background-size: contain;    
+	background-size: contain; 
+}
