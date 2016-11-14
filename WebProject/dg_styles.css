@@ -22,6 +22,7 @@ body * {
 	padding: 0px;
 	vertical-align: baseline;
 	width:100%;	
+	
 }
 body{
 	 margin: 0px;
@@ -39,7 +40,8 @@ header h1:not(#dol){
 	background: url('lemonhead2.jpg') no-repeat right bottom;
 	height:50px;
 	width:100%;	
-	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	
 }
 aside#jchome{
 	position: relative;
@@ -48,6 +50,7 @@ aside#jchome{
 	margin-left: 33%; 
 	width: 40%; 
 	top:40%;
+	
 }
 #dol {
 	font-size: 200%;
@@ -57,6 +60,7 @@ aside#jchome{
 	text-align: left;
 	position: absolute;
 	top: 0%;
+	
 	
 }
 #dol a{
@@ -87,6 +91,7 @@ nav.horizontal li {
 	text-align: center;
 	width: 10%;
 	left: 8%;
+	
 	
 }
 	
@@ -156,12 +161,14 @@ img img#gallery{
     width: 100%;
     height: auto;    
     top: 10%;
+	
 
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
+	
 }
 
 /* Footer Styles */
@@ -178,6 +185,7 @@ footer {
 	background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+	
 	}
 	
 footer address {   
@@ -199,9 +207,11 @@ footer address {
 	position:relative;
 	overflow:visible;
 	
+	
 }
 #joe{
 	width: 15%;	
+	
 }
 
 
