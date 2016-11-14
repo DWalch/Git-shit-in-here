@@ -5,10 +5,10 @@
       Date:   October 3rd 2016
 
       Filename:         dg_styles.css
-      Supporting files: 
+      Supporting files: display: none;	
    */
-/*body, header, section, aside, article, footer{
-	display: none;	
+ aside{
+	
 	outline: solid 2px red; 
 }*/
 
@@ -37,7 +37,7 @@ body{
 header h1:not(#dol){	
 	padding: 0px;
 	background: url('lemonhead2.jpg') no-repeat right bottom;
-	height:50px;
+	height:70px;
 	width:100%;	
 	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
@@ -112,6 +112,27 @@ nav.horizontal li a:hover {
 
 
 /* Section Image Styles */
+#juice{
+	display: inline-block;
+	margin: 5px;
+	border: 1px solid #777;
+	float: left;
+	width: 180px;
+	height: 100%;
+	position:relative;
+	top: 11em; 
+	left: 8em;
+
+	-moz-border-radius: 30px; 
+	-webkit-border-radius: 30px; 
+	border-radius: 30px;
+
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;    
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;   
+
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px; 
+}
+
 section{
 	
 }
