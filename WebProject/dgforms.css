@@ -8,7 +8,7 @@
       Supporting files: 
 */
 
-#contactform{
+form#contactform{
 	display:block;
 	width: 20%;
 	float:left;
@@ -18,12 +18,12 @@
 	
 }
 
-#contactsubmit{
+form p#contactsubmit{
 	text-align: center;
 	width:25%;
 }
 
-#orderform{
+form#orderform{
 	display:block;
 	width: 60%;	
 	float:left;
@@ -33,7 +33,7 @@
 	
 }
 
-#ordersubmit{
+form p#ordersubmit{
 	text-align: center;
 	width:25%;
 }
@@ -70,27 +70,27 @@ label{
 
 /* Input Control Styles */
 
-#contname, #contemail{
+form fieldset label#contname, form fieldset label#contemail{
 	width:80%;
 	float:left;
 }
-#phone{
+form fieldset label#phone{
 	width: 17%;
 	float:left;
 }
-#ordname, #ordemail{
+form fieldset label#ordname, form fieldset label#ordemail{
 	width: 30%;
 	float:left;
 }
-#address{
+form fieldset label#address{
 	width:30%;
 	float:left;
 }
-#postal{
+form fieldset label#postal{
 	width:10%;
 	float:left;
 }
-#orderfield{	
+form fieldset label#orderfield{	
 	width:200px;
 	height:200px;
 	
@@ -106,7 +106,7 @@ select{
 
 /* Textarea styles */
 
-#contmessage{
+form fieldset label#contmessage{
 	height: 200px;
 	width: 300px;
 }

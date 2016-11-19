@@ -53,12 +53,16 @@
 		<form id="contactform">
 		<fieldset id="contactinfo">
 			<legend>Contact Us</legend>
-			<label for="contname" id="fllab">Name *</label>
-			<input name="contname" id="contname" required="required"/>
-			<label for="contemail" id="fllab">Email *</label>
-			<input name="contemail" id="contemail" required="required"/>
-			<label for="contmessage" id="fllab">Message *</label>
+			
+			<label for="contname">Name *</label>
+			<input name="contname" id="contname" type="text" required="required"/>
+			
+			<label for="contemail">Email *</label>
+			<input name="contemail" id="contemail" type="text" required="required"/>
+			
+			<label for="contmessage">Message *</label>
 			<textarea name="contmessage" id="contmessage" required="required"/></textarea>
+			
 			<p id="contactsubmit">
 				<input type="submit" value="Send"/>
 				<input type="reset" value="Reset"/>
@@ -71,36 +75,49 @@
 <!-- Order form -->
 		<form id="orderform">
 		<fieldset id="order">
-			<legend>Pick-up or Delivery (within a 5km radius)</legend>		
-			<label for="ordname" id="fllab">Name *</label>
-			<input name="ordname" id="ordname" required="required"/>
-			<label for="ordemail" id="fllab">Email</label>
-			<input name="ordemail" id="ordemail"/>
-			<label for="phone" id="fllab">Phone Number *</label>
-			<input name="phone" id="phone" placeholder="(nnn) nnn-nnnn" required="required"/>
-			<label for="address" id="flrlab">Delivery Address *</label>
+			<legend>Pick-up or Delivery (within a 5km radius)</legend>
+			
+			<label for="ordname">Name *</label>
+			<input name="ordname" id="ordname" type="text" required="required"/>
+			
+			<label for="ordemail">Email</label>
+			<input name="ordemail" id="ordemail" type="text"/>
+			
+			<label for="phone">Phone Number *</label>
+			<input name="phone" id="phone" type="text" placeholder="(nnn) nnn-nnnn" required="required"/>
+			
+			<label for="address">Delivery Address *</label>
 			<textarea name="address" id="address" required="required"/></textarea>
-			<label for="postal" id="fllab">Postal Code *</label>
-			<input name="postal" id="postal" required="required"/>
-			<label for="building" id="fllab">Building Type</label>
+			
+			<label for="postal">Postal Code *</label>
+			<input name="postal" id="postal" type="text" required="required"/>
+			
+			<label for="building">Building Type</label>
 			<select name="building" id="building">
 				<option id="select" value="select">--Select One--</option>
 				<option value="house">House</option>
 				<option value="apartment">Apartment</option>
 				<option value="business">Business</option>
 				<option value="campus">Campus</option>
-			</select>	
-			<label for="paytype" id="fllab">Payment Type *</label>
+			</select>
+
+			
+			<label for="paytype">Payment Type *</label>
 			<select name="paytype" id="paytype" required="required">
 				<option id="select" value="select">--Select One--</option>
 				<option value="cash">Cash</option>
 				<option value="debit">Debit</option>
 				<option value="credit">Credit</option>
-			</select>			
-			<label for="orderfield" id="fllab">Order *</label>
-			<textarea name="orderfield" id="fllab" required="required"/></textarea>
-			<label for="instructions" id="fllab">Special Delivery Instructions</label>
-			<textarea name="instructions" id="fllab"></textarea>
+			</select>
+			
+			
+			
+			<label for="orderfield">Order *</label>
+			<textarea name="orderfield" id="orderfield" required="required"/></textarea>
+			
+			<label for="instructions">Special Delivery Instructions</label>
+			<textarea name="instructions" id="instructions	"></textarea>
+			
 			<p id="ordersubmit">
 				<input type="submit" value="Submit Order"/>
 				<input type="reset" value="Cancel"/>
