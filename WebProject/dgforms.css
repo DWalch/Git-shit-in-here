@@ -4,18 +4,18 @@
       Author: Adam Whitaker-Wilson and Doug Walch
       Date:   October 3rd 2016
 
-      Filename:         dgforms.css
+      Filename:dgforms.css
       Supporting files: 
+	  
+	  DELETE THIS
 */
 
-form#contactform{
-	display:block;
-	width: 20%;
+fieldset{
+	width: 80%;
 	float:left;
 	position: fixed;
 	top:15%;
 	left: 5%;
-	
 }
 
 form p#contactsubmit{
@@ -29,8 +29,7 @@ form#orderform{
 	float:left;
 	position: fixed;
 	top:15%;
-	left:35%;	
-	
+	left:35%;
 }
 
 form p#ordersubmit{
@@ -39,12 +38,7 @@ form p#ordersubmit{
 }
 
 fieldset{
-	border:none;
-	
-     
-}
-form{
-	
+	border:none; 
 }
 
 legend{
@@ -52,85 +46,77 @@ legend{
 	padding: 1em;
 }
 
-/* Label Styles */
-#fllab{
-	float:left;
-}
-#flrlab{
-	clear:left;
-	float:left;
-}
-#orderlab{
-	
-}
 
 label{
+	display:block;
 	padding: 2px;
+}
+form fieldset label#orderfield {
+	float:left;
 }
 
 /* Input Control Styles */
 
-form fieldset label#contname, form fieldset label#contemail{
-	width:80%;
-	float:left;
-}
-form fieldset label#phone{
-	width: 17%;
-	float:left;
-}
-form fieldset label#ordname, form fieldset label#ordemail{
-	width: 30%;
-	float:left;
-}
-form fieldset label#address{
-	width:30%;
-	float:left;
-}
-form fieldset label#postal{
-	width:10%;
-	float:left;
-}
-form fieldset label#orderfield{	
-	width:200px;
-	height:200px;
+form fieldset input#contname, form fieldset input#contemail{
+	width:150px;
 	
+}
+form fieldset input#phone{
+	width: 17%;
+	
+}
+form fieldset input#ordername, form fieldset input#orderemail{
+	width: 30%;
+	
+}
+form fieldset input#address{
+	width:30%;
+	
+}
+form fieldset input#postal{
+	width:10%;
+	
+}
+form fieldset input#orderfield{	
+	width:100px;
+	height:500px;
 }
 
 
 /* Selection list styles */
 
 select{
-	float:left;
 	width:17.5%;
 }
 
 /* Textarea styles */
 
-form fieldset label#contmessage{
+form fieldset textarea#contmessage{
 	height: 200px;
 	width: 300px;
+}
+form fieldset fieldset textarea#orderfield{
+	float: left;
 }
 
 
 /* Validation styles */
-
+/*
 input:focus, select:focus, textarea:focus{
 	background-color: rgb(220,255,220);
 }
-
+*/
 input:focus:valid {    
-	background: rgb(220, 255, 220) url(go.png) bottom right no-repeat; 
- 
-     -o-background-size: contain;    
+	background: rgb(220, 255, 220);
+    -o-background-size: contain;    
 	-moz-background-size: contain;    
 	-webkit-background-size: contain;    
 	background-size: contain; 
 	}
 
 input:focus:invalid{
-	background: rgb(255, 232, 233) url(stop.png) bottom right no-repeat; 
- 
-     -o-background-size: contain;    
+	background: rgb(255, 232, 233);
+    -o-background-size: contain;    
 	-moz-background-size: contain;    
 	-webkit-background-size: contain;    
 	background-size: contain; 
