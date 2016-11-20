@@ -1,0 +1,67 @@
+/*
+      
+      Dollar Grocers Form Styles
+      Author: Adam Whitaker-Wilson and Doug Walch
+      Date:   October 3rd 2016
+
+      Filename:dg_forms.css
+      Supporting files: 
+*/
+
+/*General Field set styles */
+/*Setting the width and float of the 2 main fieldsets and the 2 sub fieldsets */
+
+fieldset#contactinfo {
+	float:left;
+	width:49%;
+}
+fieldset#orderfull {
+	float:left;
+	width:49%;
+}
+fieldset#order {
+	float:left;
+	width: 49%;
+}
+fieldset#location {
+	float: right;
+	width:49%;
+}
+
+/*Styles for the Contactinfo Fieldset */
+fieldset#contactinfo label {
+	clear:left;
+	float:left;
+}
+fieldset#contactinfo input {
+	float:left;
+	width: 250px;
+}
+fieldset#contactinfo textarea {
+	clear: left;
+	float: left;
+	height: 100px;
+	width: 325px;
+}
+fieldset#contactinfo p#contactsubmit {
+	width: 25%;
+}
+
+/*Styles for the orderform fieldset */
+fieldset#order  label {
+	clear:left;
+	float:left;
+}
+fieldset#order input {
+	float:left;
+	width: 250px;
+}
+fieldset#order textarea {
+	clear:left;
+	float:left;
+	height: 100px;
+	width: 325px;
+}
+fieldset#oder fieldset#location {
+	float: right;
+}
