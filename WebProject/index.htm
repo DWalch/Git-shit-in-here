@@ -25,11 +25,11 @@
 	<meta name="keywords"
 	content="dollar, grocers, groceries, produce, bulk, deli, commercial drive, vancouver"/>
 
-      <script src="modernizr-1.5.js"></script>
-	 <!--<link href="dg_reset.css" rel="stylesheet" type="text/css"/> 
-	 <link href="dg_styles.css" rel="stylesheet"type="text/css" /> 
-	-->
-	 
+    <script src="modernizr-1.5.js"></script>
+	<link href="dg_reset.css" rel="stylesheet" type="text/css"/>
+	<link href="dg_layout.css" rel="stylesheet" type="text/css"/>
+	<!--<link href="dg_styles.css" rel="stylesheet"type="text/css" /> 
+	 -->
 	 <script type="text/javascript">
 	 function clock(){	 
 	 var now = new Date();	 
@@ -41,39 +41,28 @@
 	 <body onLoad="setInterval('clock()',1000);">
 	
 		 <header>
-		
 			<h1></h1>
-			<!-- What is this????? Div tag within a paragraph tag?????? Why lone name?
-				is it a placeholder for img????? -->
-			<p><a href="index.htm"><div id="dol">Dollar Grocers</div></a></p>
 			<nav class="horizontal" >
 					<ul>
 						<li><a href="index.htm">Home</a></li>
-						<li><a href="juice.htm">Juice Bar</a></li>
 						<li><a href="special.htm">Specials</a></li>
 						<li><a href="about.htm">About</a></li>
 						<li><a href="contact.htm">Contact</a></li>
-						<li><a href="photo.htm">Photos</a></li>
-						<li><a href="order.htm">Order</a></li>
-						<li><a href="delivery.html">Delivery</a></li>
+						<li><a href="photo.htm">Gallery</a></li>
 					</ul>
 			</nav>
-				
 		 </header>
 		 <nav class="vertical" >
 					<ul>
 						<li><a href="index.htm">Home</a></li>
-						<li><a href="juice.htm">Juice Bar</a></li>
 						<li><a href="special.htm">Specials</a></li>
 						<li><a href="about.htm">About</a></li>
 						<li><a href="contact.htm">Contact</a></li>
 						<li><a href="photo.htm">Photos</a></li>
-						<li><a href="order.htm">Order</a></li>
-						<li><a href="delivery.html">Delivery</a></li>
 					</ul>
 			</nav>
 		 <section>
-			<article>
+			<article class="openStatement">
 				<h1> Welcome to Dollar Grocers</h1>
 				<p>Here, at Dollar Grocers, we aim to provide the highest quality ingredients
 				and products for your family. Here, at Dollar Grocers, we aim to provide the highest quality ingredients
@@ -84,112 +73,70 @@
 				and products for your family.
 				</p>
 			</article>
-			
-		 <article id="jchome">
-				<p>Juice Shit! Get your juice shit @ $ Grocers!!!!! you bastard!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				</p>
+			<figure class="JuiceHome">
+				<figcaption>
+				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!
+				Come try all the new flavorful and delcious juice selection today!
+				</figcaption>
 				<img id="juice" name="juice" src="juicesm.jpg" alt="juice"/>
-		</article>
+			</figure>
+		<h1 class="specials">SPECIALS</h1>
 		<table class="Frontspecials" border="1">
 			<tr>
-				<th> </th>
-				<th> </th>
-				<th> </th>
-				<th> </th>
-				<th> </th>
+				<th>Dairy</th>
+				<th>Produce</th>
+				<th>Grain</th>
+				<th>Mediterranean</th>
+				<th>Bulk</th>
 			</tr>
 			<tr>
-				<th>11</th>
-					<td> test </td>
-				<th>12</th>
-					<td> test </td>
-				<th>13</th>
-					<td> test </td>
-				<th>14</th>
-					<td> test </td>
-				<th>15</th>
-					<td> test </td>
+				<td>Milk</td>
+				<td>Lettuce</td>
+				<td>Flour</td>
+				<td>Greek</td>
+				<td>Almonds</td>
 			</tr>
 			<tr>
-				<th>21</th>
-					<td> test </td>
-				<th>22</th>
-					<td> test </td>
-				<th>23</th>
-					<td> test </td>
-				<th>24</th>
-					<td> test </td>
-				<th>25</th>
-					<td> test </td>
+				<td>Cream</td>
+				<td>Potatoe</td>
+				<td>Bread</td>
+				<td>Spices</td>
+				<td>Peanuts</td>
 			</tr>
 			<tr>
-				<th>31</th>
-					<td> test </td>
-				<th>32</th>
-					<td> test </td>
-				<th>33</th>
-					<td> test </td>
-				<th>34</th>
-					<td> test </td>
-				<th>35</th>
-					<td> test </td>
-			</tr>
-			<tr>
-				<th>41</th>
-					<td> test </td>
-				<th>42</th>
-					<td> test </td>
-				<th>43</th>
-					<td> test </td>
-				<th>44</th>
-					<td> test </td>
-				<th>45</th>
-					<td> test </td>
-			</tr>
-			<tr>
-				<th>51</th>
-					<td> test </td>
-				<th>52</th>
-					<td> test </td>
-				<th>53</th>
-					<td> test </td>
-				<th>54</th>
-					<td> test </td>
-				<th>55</th>
-					<td> test </td>
+				<td>Cheese</td>
+				<td>Tomatoe</td>
+				<td>Pita Bread</td>
+				<td>Curry</td>
+				<td>Whole Wheat Flour</td>
 			</tr>
 		</table>
-		</section>
-		<form class="quickOrder">
+		<form id="quickOrder">
 			<fieldset>
 				<legend>Quick Pick Up Order Form</legend>
-				<label>Enter Item</label>
-				<input name="itemEnter" id="itemEnter" />
-				<label> Enter Name</label>
+				<label for="enterName"> Enter Name</label>
 				<input name="enterName" id="enterName" />
-				<label>Enter Time to pick up</label>
+				<label for="itemEnter">Enter Item Names</label>
+				<textarea name="itemEnter" id="itemEnter"></textarea>
+				<label for="timeEnter">Enter Time to pick up</label>
 				<input name="timeEnter" id="timeEnter" />
-				<label>Additional Information</label>
+				<label for="addInfo">Additional Information</label>
 				<textarea name="addInfo" id="addInfo" />
+				</textarea>
 			</fieldset>
 		</form>
-		 <footer>
-		 <form name="adam" id="adam" action="">				
-		 <input name="joe" id="joe" type="text"/>	
-		 </form>	
+		</section>
+		
+		 <footer>	
 		 <address>
 		  Dollar Grocers &nbsp;&#1216;&nbsp;
             2210 Commercial Drive &nbsp;&#1216;&nbsp;
             Vancouver, Canada V5N 5P9 &nbsp;&#1216;&nbsp;
             (604) 255 - 9933
 		 </address>
-		
-	     
+		 <form name="adam" id="adam" action="">				
+		 <input name="joe" id="joe" type="text"/>	
+		 </form>
 		 </footer>
 		 
 		 
