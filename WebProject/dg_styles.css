@@ -142,9 +142,6 @@ nav.horizontal li a:hover {
 	box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px; 
 }
 
-section{
-	
-}
 section p{	
 	display:block;
 	position: absolute;
@@ -161,7 +158,6 @@ section p{
 div.desc {
     padding: 15px;
     text-align: center;
-	
 }
 
 /* Footer Styles */
