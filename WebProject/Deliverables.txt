@@ -1,0 +1,318 @@
+2.   Deliverables and Details  
+
+2.1 9 Web Sites in total are required from 9 different domains as listed below. 
+
+Web Sites – Similar sites to your site, re: similar business nature o Links to 3 web sites 
+similar to the site you are planning to build for the Company.  
+Describe what you like or don’t like about each site in 2 sentences.  
+Web Sites – Downloadable Sites o Links to 3 sites from which you can download free components 
+for use in your project web site for the Company (i.e., graphics, sound files, ActiveX, tools, etc).  
+Give a onesentence introduction to each site. ? Web Sites – Technical Information o Links to 3 sites 
+for authoritative technical information on technologies you’ll be using for the project web site you
+build for the Company. (i.e., HTML, JavaScript, Cascading Style Sheets, etc.).  
+They should include at least one newsgroup.  
+Include a one-sentence introduction to each site. 
+Note:  A total of 9 sites are requested from 9 different domain names 
+ 
+2.2  Cross Reference Page  
+
+At the completion of the project, you will be asked to present a web page that links to all requirements 
+to aid in the marking of your web site.  Now is a good time to begin that page by creating a list of all 
+requirements and when completed, link the text to the location on the project web site.    
+Each item on the cross reference page must be a hyperlink to the associated item with the web site and 
+include a description of what the link is going to show.  Your web site must demonstrate the appropriate, 
+relevant and functional use of each of the required features.    The cross-reference page must be accessible 
+from the Home Page of the web site.  It must be part of the Project web site. 
+The cross-reference page should be the last thing completed by you.  Note: When submitting a copy of
+the completed web project to the business or organization, remove the link to the cross reference page.  
+The link to the cross reference page is only required for the copy of the web project that is submitted to me 
+for marking purposes.  
+ 
+2.3   Web Site Design  
+
+It is important for you to develop a flow of the web site.  
+The flow essentially refers to how a user will navigate through the site – how the pages will link to each other.  
+  Once you have a good idea of how the web site will be navigated, you can begin to detail how each component 
+will be designed as well as decide on the information and data that will be required and processed by this application. 
+ HTML5, XHTML, CSS3, Multimedia and JavaScript are the Minimum Requirements Features  Note:  
+The location of these features must be mapped to the X- reference page. 
+ 
+
+
+2.3.1   HTML5 Minimum Requirements Features 
+
+
+a) Implement HTML5 structural elements, including header groups to group html headers. 
+
+b) Use of anchor references. 
+
+c) Links to appropriate resources, additional info ... pertaining to the nature of the business. 
+
+d) Use of hotspots, image maps or bookmarks to skip to a location on a given page, as well as to another 
+page on your site and to an external related web site(s). 
+
+e) Insert inline images and line breaks. 
+
+f) Mark page headings, paragraphs, block quotes and addresses appropriately. 
+
+g) Create appropriate ordered, unordered and description lists. 
+
+h) Insert special characters from extended character sets. 
+
+i) Implement HTML5 meta character set, meta name as author and content with the business name, 
+meta name as description and content describing the nature of the business in one short simple 
+sentence, meta name as keywords and content with at least five keywords that would describe the 
+nature of the business in words. 
+
+j) Your home page must have a footer when the web site was last updated or modified.  
+ 
+
+2.3.2   Cascading Style Sheets Minimum Requirements Features 
+
+
+a) Create one example on your home page that would show that you know how to style a single 
+element using an inline style for your first h1 heading on your home page. 
+
+b) Style your home page using embedded style sheet. 
+
+c) For the remaining pages create styles using external CSS file(s). 
+
+d) Use CSS3 to format the appearance of paragraphs, lists, headers, background images, tables, 
+forms.  Use the following CSS3 contextual selectors (e1, e2, e3; e  f; e > f; e + f) in your web pages. 
+
+e) Use of CSS3 styles for color (RGBA & HSLA) and show one instance of progressive enhancement for colors. 
+
+f) Use of CSS3 styles to format the appearance of web pages text, including at least the following: 
+font-family, font-size, kerning, tracking, leading, text-indent, font-weight, font-style, text-decoration,
+ text-transform and font-variant. 
+
+g) Use of the following pseudo-classes to highlight hyperlinks states of link, visited, active, hover; 
+focus pseudo-classes and one appropriate structural pseudo-class. 
+
+h) Use of CSS3 background styles (background size, background-clip, backgroundorigin, padding, 
+margins, borders, use of an appropriate border style, use of rounded corners and the use of an outline style. 
+
+i) Your home page should have a drop cap created with CSS3. 
+
+j) Define document content with the class and id properties and create styles for them. 
+Page 7 of 12 Web Presence Project 
+
+k) Mark document content with the <div> and <span> tags and create styles for them. 
+
+l) Use cascading styles to control page layout by using float attribute and positioning. 
+
+m) Use of a Web Font. 
+
+n) Use of CSS3 text and box shadows. 
+
+o) Use of CSS3 transform rotate feature. 
+
+p) Use of CSS3 opacity applied to two images to appear semi-transparent. 
+ 
+
+2.3.3   Web Form Minimum Required Features 
+
+
+a) Use of appropriate form elements including some of the new HTML5 form elements. 
+
+b) Apply appropriate styles to Web Forms. 
+
+c) Validate form data using the required attribute. 
+
+d) Apply inline form validation by using the focus pseudo-class to appropriate form elements. 
+ 
+
+2.3.4 Multimedia Minimum Required Features 
+
+
+a) Use of <object> tag to enhance a web page with sound and video. 
+ 
+
+2.3.5   Creating a Well-Formed, Valid Document 
+
+
+a) Your home page should be well formed, valid web page under either transitional, strict XHTML DTD or HTML5. 
+ 
+
+2.3.6   JavaScript Minimum Required Features 
+
+
+a) Use of variables, arithmetic, comparison and logical operators, subroutines, functions, arrays, conditional 
+statements, conditional operators, running time commands with system clock. 
+
+b) Display system date on the home page of the web site. 
+
+c) Validating form input by using appropriate JavaScript functions. 
+
+d) Use of JavaScript alerts for validation purposes. 
+ 
+
+2.4   Web Project Documentation  
+
+
+You must include in your web project documentation the following elements in pdf format. 
+
+
+Front page (with names of team members, title, course name and date) 
+
+A paragraph entailing the business statement in about 100 words. 
+
+The project objectives and a project description clearly and precisely stated. 
+
+Include a site map/schematic diagram of the entire web project with dependency tree supported with documentation 
+of application flow and functionality that is clear, precise and concise.  
+
+Use of Visio or other similar tools is encouraged for professional look to your schematic diagram.
+    
+MUST include a “Read Me First” text file to be placed outside your root folder, which explains how the 
+user would navigate the web site, usually starting from the index page.  
+
+Explain how the business would benefit
+ from the web project created in about 100 words.  
+
+Any other relevant documentation pertaining to your site 
+that you wish to include. 
+
+Note:  If the documentation is clearly written, you may impress the company to 
+whom you demonstrate your web project, as well as, potential employers. 
+ 
+
+2.4   Demonstration Evaluation Form  
+
+
+You are required to prepare an evaluation form that would be suitable for personnel of the Company to complete.  
+The evaluation form should include opportunities for feedback on your prototype design, its usefulness, 
+your demonstration skills and the business personnel’s overall impression of the prototype and demonstration. 
+
+This form is to be completed by personnel of the Company once the demonstration has taken place.  
+
+Ensure that all required features of the project continue to work on the web project.  
+
+Do not alter the basics of the deliverables for the project based on the feedback of the Company. 
+ 
+
+2.6   Extended Features (Optional)  
+
+
+What are extended features? 
+
+The extended features are what will make your web page stand out from the others. 
+
+This is also important for you if you want to impress employers. 
+
+These features will be unique ones that you research and choose. 
+
+They can be whatever you want. 
+
+They do not have to be components that you add to your web page but anything extra you may add to the project. ? 
+
+What will extended features do for the project? Extended features can be included to allow you to achieve a higher grade.
+Project marks for extended features are given to encourage self - directed learning. So, do not ask the Instructor(s) 
+to show you how to do it! If you feel inclined to ask an instructor how to implement an extended feature, 
+you cannot receive credit for using that feature. Extended Features cannot be considered for evaluation if 
+required features are missing or not working.  Specifically, you must achieve a minimum of 90% on the required 
+features before any consideration will be given for bonus marks for extended features. 
+
+Important Note to Students Repeated use of any feature counts as one occurrence - one extended feature. 
+
+All required features of the project must be met before extended features wi1l be considered during the 
+evaluation process.  
+ 
+More on Extended Features If you are going to implement extended features in your project, 
+a minimum of three (3) extended features are required in order to achieve any bonus marks.  
+
+You are required to understand each and every one of the three extended features that has been implemented 
+
+– the instructor will require you to explain how each of the extended features has been implemented and 
+
+why those extended features were chosen.  
+
+Additionally, all of the 3 extended features must be fully functional before any consideration will 
+
+be given for awarding any bonus marks. 
+ 
+All extended features included in the project must be relevant to the application you are creating. 
+
+For instance, password protecting a web site that isn't context sensitive would limit access without any reason. 
+However, password protecting a page on the web site that customers use to view their account information 
+would be relevant.  
+ 
+Extended Features are included within this web presence project and used as a requirement to 
+achieve a higher grade for a multitude of reasons, not the least of which is that it requires 
+you to learn a new component/technology in order to implement the feature.  
+ 
+Remember, in the work place to do only what is required will not make you stand out to your supervisors.  
+To do more than the minimum is what makes you, as an employee, outstanding.  
+The same is true as a student.  Do more than what is expected by the instructor and you can be 
+rewarded with higher marks for your efforts. 
+ 
+? Extended features for the project will NOT be considered from the following sources: 
+Anything that can be accomplished using any kinds of wizards (if completed using HTML, CSS, JavaScript and 
+not covered in the curriculum is acceptable) nor anything that is spelled out in any of your required or 
+recommended text books or lecture notes or class discussion material.  
+Extras chosen by you should be original and beyond the scope of the instructional material.  
+In the event you are enhancing an existing web site, any features already implemented previously, 
+i.e. prior to you starting on improving or enhancing the web site will not be considered for credit 
+for extended features.   
+ 
+Note:  All extended features must be approved by the instructor before work commences for marks to be awarded. 
+ 
+
+2.7 Deliverable Submission 
+
+ 
+2.7.1 Guidelines for Submission 
+ 
+a) All deliverable must be placed on to a USB.  Create a folder, with your Last Name & First Name.  
+On the outside of this folder you MUST place your Read Me First Text File, where the first 
+line in this file is your Last Name, First Name and your student ID.  Briefly explain how a user would 
+navigate your web site.  You are also required to place your index.html file, outside your folder 
+ 
+NOTE: For consistency please ensure your home page is named index.html and not anything else. 
+ 
+b) Ensure that your cross reference page is clearly numbered, e.g., 2.3.1 
+
+d) and hyperlinks correctly to various parts of the project.  This is KEY!! 
+ 
+c) The entire project submission is on your USB.   
+ 
+
+2.7.2    Web Presence Style Guidelines for deliverables 
+ 
+
+a) Introduction  
+ 
+The purpose of this document is to give you the expected minimum style and appearance for your documentation
+in H/XTML format. The details included here are to assist you in the presentation of a professional 
+documentation in H/XTML.  While there is no standard form for documentation, these guidelines will 
+assist you in presenting your material in the best possible format.  
+ 
+b) Fonts  A serif font, Tahoma, size 10 point should be used for all body text, headings and diagrams. 
+Do not combine bold and underline font attributes on the same piece of text.  
+ 
+c) Tables  In general, tables should use the same page space as the body of the document. 
+Shading of the heading row is not required but, if used, should not exceed 10% shading. 
+More shading than that and the text within become difficult to read upon reproduction. 
+The text in the heading row should be bolded and centered. 
+The data in the remaining rows can be centered or left justified.  
+Do not use tables for a complete page layout; preference would be to use CSS. 
+A sample table is below:  
+ 
+Product Product Number Manufacturer LaserJet 8NNN printer 165-6548-8454-645 
+Hewlett – Packard Microsoft Word 2013 548-88-7744-5452 Microsoft 
+ 
+ 
+d) Abbreviations  For abbreviations or acronyms, use the full version of the word the first time 
+with the abbreviation or acronym in brackets.  Every following occurrence, use the abbreviation 
+or acronym. For example, Hyper Text Markup Language (HTML) is the basic language of web design and development. 
+ 
+e) Bibliography  A complete bibliography MUST be used for all references used in the documentation.  
+Failure to provide a complete bibliography would result in a FAIL grade of the project, 
+as well as, academic dishonesty (Refer to course outline on TRU policy on academic honesty). 
+The recommended format is:  Author's Name, Title of Book. Publisher, Location of Publication, 
+Publication Date. ISBN  Bolles, Richard Nelson, What Color is Your Parachute ? Ten Speed Press, 
+Berkeley, California, 1996. ISBN 123-324-5556-6666  Resources other than books may be identified. 
+These include magazines, and Web sites. The format to follow for these is below:  
+Magazine Author's name, "Article name," Magazine Title (Date): page numbers.  
+ 
+Web sites  Site Address (URL)
