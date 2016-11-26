@@ -18,7 +18,6 @@ body * {
 	margin: 0px;	
 	padding: 0px;
 	vertical-align: baseline;
-	width:98%;	
 	
 }
 body{
@@ -38,7 +37,7 @@ header h1:not(#dol){
 	width:100%;	
 	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 	
-}s
+}
 nav.horizontal {
 	background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
@@ -109,6 +108,19 @@ article.openStatement {
 	float:left;
 	width:30%;
 }
+article.openStatement h1 {
+	font-weight: bold;
+	font-size: 200%;
+	letter-spacing: 2px;
+	text-decoration:underline;
+}
+article.openStatement p span {
+	font-size: 400%;
+}
+article.openStatement p {
+	letter-spacing: 1px;
+	line-height: 25px;
+}
 
 footer {
 	bottom: 0;
@@ -155,14 +167,16 @@ footer address {
 	box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px; 
 }
 h1.specials {
+	margin-top: 160px;
 	clear:right;
 	float:right;
 	width:48%;
 }
+table, th, td {
+	border: black solid 1px;
+}
 table {
-	clear:right;
-	float:right;
-	width:48%;
+	border-collapse: collapse;
 }
 
 form#quickOrder {
