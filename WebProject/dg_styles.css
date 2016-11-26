@@ -25,17 +25,17 @@ body * {
 	
 }
 body{
-	 margin: 0px;
-      padding: 0px;
-	 background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
-	 background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
-	 background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
-	 background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
-	 background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+	margin: 0px;
+    padding: 0px;
+	background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+	background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+	background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+	background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+	background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	
 }
  
-header h1:not(#dol){	
+header nav:not(#dol){	
 	padding: 0px;
 	background: url('lemonhead2.jpg') no-repeat right bottom;
 	height:70px;
@@ -71,7 +71,9 @@ header h1:not(#dol){
 	text-decoration: none;
 	color:black;
 }
-
+nav.vertical {
+	display:none;
+}
 /*Horizontal Navigation List Styles */
 nav.horizontal {
 	background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
@@ -83,8 +85,6 @@ nav.horizontal {
 	position: fixed;
 	display: block;
 	width: 100%;
-	
-	
 }
 
 nav.horizontal li {
@@ -95,8 +95,6 @@ nav.horizontal li {
 	text-align: center;
 	width: 10%;
 	left: 8%;
-	
-	
 }
 	
 nav.horizontal li  a{
@@ -106,7 +104,6 @@ nav.horizontal li  a{
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     text-decoration: none;
     width: 100%;
-    
     -moz-text-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;    
     -webkit-text-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;   
    
@@ -131,14 +128,11 @@ nav.horizontal li a:hover {
 	position:relative;
 	top: 11em; 
 	left: 8em;
-
 	-moz-border-radius: 30px; 
 	-webkit-border-radius: 30px; 
 	border-radius: 30px;
-
 	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;    
 	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;   
-
 	box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px; 
 }
 
@@ -151,7 +145,6 @@ section p{
 	width: 40%;
 	float:left;
 	margin: 20%;
-	
 }	
 
 
@@ -168,13 +161,12 @@ footer {
 	left: 0;
 	height: 70px;
 	background-color: white;
-	width: 100%;
+	width: 98%;
 	background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 	background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
-	
 	}
 	
 footer address {   
@@ -195,14 +187,14 @@ footer address {
 	display: block;
 	position:relative;
 	overflow:visible;
-	
-	
 }
 #joe{
 	width: 15%;	
-	
 }
-
+img{
+	
+    width: 50%;
+}
 
 /*address{
 	position: absolute;

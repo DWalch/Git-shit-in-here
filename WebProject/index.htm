@@ -25,171 +25,353 @@
 	<meta name="keywords"
 	content="dollar, grocers, groceries, produce, bulk, deli, commercial drive, vancouver"/>
 
-      <script src="modernizr-1.5.js"></script>
-	 <!--<link href="dg_reset.css" rel="stylesheet" type="text/css"/> 
-	 <link href="dg_styles.css" rel="stylesheet"type="text/css" /> 
-	-->
-	 
+    <script src="modernizr-1.5.js"></script>
 	 <script type="text/javascript">
 	 function clock(){	 
 	 var now = new Date();	 
 	 document.adam.joe.value = now.toLocaleString();
 	 }	 
 	 </script>
+	 <style>
+			body * {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 100%;
+				font-weight: inherit;
+				line-height: 1.2em;
+				list-style: none;
+				margin: 0px;	
+				padding: 0px;
+				vertical-align: baseline;
+			}
+			body{
+				margin: 0px;
+				padding: 0px;
+				background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				
+			}
+			header nav:not(#dol){	
+				padding: 0px;
+				background: url('lemonhead2.jpg') no-repeat right bottom;
+				height:70px;
+				width:100%;	
+				-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+				
+			}
+			nav.horizontal {
+				background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				height: 75px;
+				position: fixed;
+				display: block;
+				width: 100%;
+			}
+			nav.horizontal li {
+				display: block;
+				position: relative;
+				float:left;
+				letter-spacing: 5px;
+				line-height: 30px;
+				text-align: center;
+				padding-left: 75px;
+				width: 10%;
+				left: 8%;
+			}
+			nav.horizontal li  a{
+				color: rgb(68, 0, 163);
+				font-variant: small-caps;
+				font-size: 30px;
+				font-family: 'Trebuchet MS', Helvetica, sans-serif;
+				text-decoration: none;
+				width: 100%;
+				-moz-text-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;    
+				-webkit-text-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;   
+				text-shadow: rgba(0,0,0, 0.25) 2px 0px 3px; 
+			   
+				
+			}
+
+			nav.horizontal li a:hover {
+				color: rgb(255,255,0);
+			}
+
+			nav.vertical {
+				display:none;
+				float:left;
+				width: 18%;
+			}
+
+			nav.vertical li a {
+				color: rgb(68, 0, 163);
+				font-variant: small-caps;
+				font-size: 30px;
+				font-family: 'Trebuchet MS', Helvetica, sans-serif;
+				text-decoration: none;
+				width: 100%;
+				-moz-text-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;    
+				-webkit-text-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;   
+				text-shadow: rgba(0,0,0, 0.25) 2px 0px 3px;
+			}
+			figure.JuiceHome {
+				margin-top: 125px;
+				float:right;
+				width: 49%;
+			}
+			figcaption {
+				letter-spacing: 1px;
+			}
+			figcaption h1 {
+				font-size:150%;
+				font-weight: bold;
+				letter-spacing: 1px;
+				text-decoration:underline;
+			}
+			figcaption span {
+				font-size: 400%;
+			}
+			article.openStatement {
+				margin:125px;
+				clear:left;
+				float:left;
+				width:30%;
+			}
+			article.openStatement h1 {
+				font-weight: bold;
+				font-size: 200%;
+				letter-spacing: 2px;
+				text-decoration:underline;
+			}
+			article.openStatement p span {
+				font-size: 400%;
+			}
+			article.openStatement p {
+				letter-spacing: 1px;
+				line-height: 25px;
+			}
+
+			footer {
+				bottom: 0;
+				left: 0;
+				height: 70px;
+				background-color: white;
+				position: absolute;
+				top: 1150px;
+				width: 98%;
+				background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+			}
+				
+			footer address {   
+				color: rgb(68, 0, 163);   
+				font-size: 80%;   
+				font-style: normal;   
+				padding: 5px;
+				text-align: center; 
+				background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -moz-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: -webkit-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+				background: linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
+			}
+
+			#head{
+				display: block;
+				position:relative;
+				overflow:visible;
+			}
+			#joe{
+				width: 15%;	
+			}
+			#juice{
+				margin: 5px;
+				border: 1px solid #777;
+				-moz-border-radius: 30px; 
+				-webkit-border-radius: 30px; 
+				border-radius: 30px;
+				-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;    
+				-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;   
+				box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px; 
+			}
+			h1.specials {
+				clear:right;
+				float:right;
+				font-size: 150%;
+				font-weight:bold;
+				margin-top: 15px;
+				text-decoration: underline;
+				width:48%;
+			}
+			table, th, td {
+				border: black solid 1px;
+			}
+			table tr th a {
+				color: black;
+				text-decoration: none;
+			}
+			table tr th a:visited {
+				color: green;
+			}
+			table {
+				border-collapse: collapse;
+				width: 49%
+			}
+			th {
+				font-size: 150%;
+				font-weight: bold;
+			}
+			td {
+				text-align: center;
+			}
+			th, td {
+				height: 50px;
+				width: 150px;
+				vertical-align:middle;
+			}
+
+			form#quickOrder {
+				position:absolute;
+				top: 675px;
+				left: 125px;
+				
+				width: 30%;
+			}
+			label {
+				clear:left;
+				float:left;
+			}
+			input {
+				clear:left;
+				float:left;
+				width: 75%;
+			}
+			input[type=submit] {
+				width: 25%;
+			}
+			textarea {
+				clear:left;
+				float:left;
+				height: 150px;
+				width: 75%;
+			}
+			textarea.addInfo, label.addInfo {
+				clear:right;
+				float:right;
+			}
+	 </style>
    </head>
 	
 	 <body onLoad="setInterval('clock()',1000);">
 	
 		 <header>
-		
 			<h1></h1>
-			<!-- What is this????? Div tag within a paragraph tag?????? Why lone name?
-				is it a placeholder for img????? -->
-			<p><a href="index.htm"><div id="dol">Dollar Grocers</div></a></p>
 			<nav class="horizontal" >
 					<ul>
 						<li><a href="index.htm">Home</a></li>
-						<li><a href="juice.htm">Juice Bar</a></li>
 						<li><a href="special.htm">Specials</a></li>
 						<li><a href="about.htm">About</a></li>
 						<li><a href="contact.htm">Contact</a></li>
-						<li><a href="photo.htm">Photos</a></li>
-						<li><a href="order.htm">Order</a></li>
-						<li><a href="delivery.html">Delivery</a></li>
+						<li><a href="photo.htm">Gallery</a></li>
 					</ul>
 			</nav>
-				
 		 </header>
 		 <nav class="vertical" >
 					<ul>
 						<li><a href="index.htm">Home</a></li>
-						<li><a href="juice.htm">Juice Bar</a></li>
 						<li><a href="special.htm">Specials</a></li>
 						<li><a href="about.htm">About</a></li>
 						<li><a href="contact.htm">Contact</a></li>
 						<li><a href="photo.htm">Photos</a></li>
-						<li><a href="order.htm">Order</a></li>
-						<li><a href="delivery.html">Delivery</a></li>
 					</ul>
 			</nav>
 		 <section>
-			<article>
+			<article class="openStatement">
 				<h1> Welcome to Dollar Grocers</h1>
-				<p>Here, at Dollar Grocers, we aim to provide the highest quality ingredients
-				and products for your family. Here, at Dollar Grocers, we aim to provide the highest quality ingredients
-				and products for your family.Here, at Dollar Grocers, we aim to provide the highest quality ingredients
-				and products for your family.Here, at Dollar Grocers, we aim to provide the highest quality ingredients
-				and products for your family.Here, at Dollar Grocers, we aim to provide the highest quality ingredients
-				and products for your family.Here, at Dollar Grocers, we aim to provide the highest quality ingredients
-				and products for your family.
+				<p><span>H</span>ere at dollar grocers we pride ourselves on providing exceptional service and unique selections of natural 
+					and organic food products to Vancouvers very own commercial drive. At this one stop shop we aim to satisfy 
+					all your needs for fresh produce, dairy, deli, bulk foods, groceries and rare imported specialty products 
+					that you can’t find anywhere else. We listened to our costumers and now have a brand-new Juice Bar with 
+					delicious fresh pressed juices prepared daily for you to grab and go! Come on in to Dollar Grocers now 
+					and experience this family owned, community-driven store packed with local, imported, natural and 
+					organic varieties at affordable prices. 
 				</p>
 			</article>
 			
-		 <article id="jchome">
-				<p>Juice Shit! Get your juice shit @ $ Grocers!!!!! you bastard!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				INTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!!!!!
-				</p>
+			<figure class="JuiceHome">
+				<figcaption>
+				<h1>JUICE BAR</h1>
+				<span>I</span>NTRODUCING DOLLAR GROCERS NEW ADDITION! THE JUICE BAR!<br></br>
+				Come try our new huge lineup of delicious juices today!<br></br>
+				Juice Freshly squeezed on order!!
+				</figcaption>
 				<img id="juice" name="juice" src="juicesm.jpg" alt="juice"/>
-		</article>
-		<table class="Frontspecials" border="1">
+			</figure>
+		</section>
+		
+		<h1 class="specials">SPECIALS</h1>
+		<table>
 			<tr>
-				<th> </th>
-				<th> </th>
-				<th> </th>
-				<th> </th>
-				<th> </th>
+				<th><a href="dairy.htm">Dairy</a></th>
+				<th><a href="special.htm">Produce</a></th>
+				<th><a href="special.htm">Grain</a></th>
+				<th><a href="special.htm">Mediterranean</a></th>
+				<th><a href="special.htm">Bulk</a></th>
 			</tr>
 			<tr>
-				<th>11</th>
-					<td> test </td>
-				<th>12</th>
-					<td> test </td>
-				<th>13</th>
-					<td> test </td>
-				<th>14</th>
-					<td> test </td>
-				<th>15</th>
-					<td> test </td>
+				<td>Milk</td>
+				<td>Lettuce</td>
+				<td>Flour</td>
+				<td>Greek</td>
+				<td>Almonds</td>
 			</tr>
 			<tr>
-				<th>21</th>
-					<td> test </td>
-				<th>22</th>
-					<td> test </td>
-				<th>23</th>
-					<td> test </td>
-				<th>24</th>
-					<td> test </td>
-				<th>25</th>
-					<td> test </td>
+				<td>Cream</td>
+				<td>Potatoe</td>
+				<td>Bread</td>
+				<td>Spices</td>
+				<td>Peanuts</td>
 			</tr>
 			<tr>
-				<th>31</th>
-					<td> test </td>
-				<th>32</th>
-					<td> test </td>
-				<th>33</th>
-					<td> test </td>
-				<th>34</th>
-					<td> test </td>
-				<th>35</th>
-					<td> test </td>
-			</tr>
-			<tr>
-				<th>41</th>
-					<td> test </td>
-				<th>42</th>
-					<td> test </td>
-				<th>43</th>
-					<td> test </td>
-				<th>44</th>
-					<td> test </td>
-				<th>45</th>
-					<td> test </td>
-			</tr>
-			<tr>
-				<th>51</th>
-					<td> test </td>
-				<th>52</th>
-					<td> test </td>
-				<th>53</th>
-					<td> test </td>
-				<th>54</th>
-					<td> test </td>
-				<th>55</th>
-					<td> test </td>
+				<td>Cheese</td>
+				<td>Tomatoe</td>
+				<td>Pita Bread</td>
+				<td>Curry</td>
+				<td>Whole Wheat Flour</td>
 			</tr>
 		</table>
-		</section>
-		<form class="quickOrder">
+			
+		<form id="quickOrder">
 			<fieldset>
 				<legend>Quick Pick Up Order Form</legend>
-				<label>Enter Item</label>
-				<input name="itemEnter" id="itemEnter" />
-				<label> Enter Name</label>
+				<label for="enterName"> Enter Name</label>
 				<input name="enterName" id="enterName" />
-				<label>Enter Time to pick up</label>
-				<input name="timeEnter" id="timeEnter" />
-				<label>Additional Information</label>
-				<textarea name="addInfo" id="addInfo" />
+				<label for="itemEnter">Enter Item Names</label>
+				<textarea name="itemEnter" id="itemEnter"></textarea>
+				<label for="addInfo">Additional Information</label>
+				<textarea name="addInfo" id="addInfo" >
+				</textarea>
+				<input type="submit" value="Order" />
+				<label>Please Pick up in 1 hour after submitting order</label>
 			</fieldset>
 		</form>
-		 <footer>
-		 <form name="adam" id="adam" action="">				
-		 <input name="joe" id="joe" type="text"/>	
-		 </form>	
+		 <footer>	
 		 <address>
 		  Dollar Grocers &nbsp;&#1216;&nbsp;
             2210 Commercial Drive &nbsp;&#1216;&nbsp;
             Vancouver, Canada V5N 5P9 &nbsp;&#1216;&nbsp;
             (604) 255 - 9933
 		 </address>
-		
-	     
+		 <form name="adam" id="adam" action="">				
+		 <input name="joe" id="joe" type="text"/>	
+		 </form>
 		 </footer>
 		 
 		 
