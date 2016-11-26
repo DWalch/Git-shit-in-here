@@ -35,7 +35,7 @@ body{
 	
 }
  
-header h1:not(#dol){	
+header nav:not(#dol){	
 	padding: 0px;
 	background: url('lemonhead2.jpg') no-repeat right bottom;
 	height:70px;
@@ -71,7 +71,9 @@ header h1:not(#dol){
 	text-decoration: none;
 	color:black;
 }
-
+nav.vertical {
+	display:none;
+}
 /*Horizontal Navigation List Styles */
 nav.horizontal {
 	background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
@@ -189,7 +191,10 @@ footer address {
 #joe{
 	width: 15%;	
 }
-
+img{
+	
+    width: 50%;
+}
 
 /*address{
 	position: absolute;
