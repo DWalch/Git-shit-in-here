@@ -31,6 +31,13 @@
 	 var now = new Date();	 
 	 document.adam.joe.value = now.toLocaleString();
 	 }	 
+	 
+	function AddToForm1(field){
+
+	var add = field.value;
+	add += "\n";
+	document.quickOrder.addInfo.value += add;
+	}
 	 </script>
 	 <style>
 			body * {
@@ -42,6 +49,7 @@
 				margin: 0px;	
 				padding: 0px;
 				vertical-align: baseline;
+				outline: solid 1px red;
 			}
 			body{
 				margin: 0px;
@@ -160,8 +168,7 @@
 				left: 0;
 				height: 70px;
 				background-color: white;
-				position: absolute;
-				top: 1150px;
+				
 				width: 98%;
 				background: -o-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
 				background: -ms-linear-gradient(left, rgb(187,255,65), rgb(231, 231, 231));
@@ -201,14 +208,13 @@
 				-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;   
 				box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px; 
 			}
-			h1.specials {
-				clear:right;
-				float:right;
+			caption {
+				position: center;
 				font-size: 150%;
 				font-weight:bold;
 				margin-top: 15px;
 				text-decoration: underline;
-				width:48%;
+				width:100%;
 			}
 			table, th, td {
 				border: black solid 1px;
@@ -238,9 +244,8 @@
 			}
 
 			form#quickOrder {
-				position:absolute;
-				top: 675px;
-				left: 125px;
+				clear: right;
+				float:right;
 				
 				width: 30%;
 			}
@@ -316,27 +321,27 @@
 			</figure>
 		</section>
 		
-		<h1 class="specials">SPECIALS</h1>
 		<table>
+		<caption>Specials</caption>
 			<tr>
-				<th><a href="dairy.htm">Dairy</a></th>
+				<th><a href="dairy.htm">Grocery</a></th>
 				<th><a href="special.htm">Produce</a></th>
-				<th><a href="special.htm">Grain</a></th>
-				<th><a href="special.htm">Mediterranean</a></th>
 				<th><a href="special.htm">Bulk</a></th>
+				<th><a href="special.htm">Deli</a></th>
+				<th><a href="special.htm">Ethnic</a></th>
 			</tr>
 			<tr>
-				<td>Milk</td>
-				<td>Lettuce</td>
-				<td>Flour</td>
-				<td>Greek</td>
-				<td>Almonds</td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Almond Breeze 946ml (Vanilla)/ 2 for $5.00" /></td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Natural Path Cereal Eco-Pac 750g / $6.59 ea" /></td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Dan-D-Pak Natural Almonds 1.13kg / $10.99 ea" /></td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "truRoots Organic Quinoa 2lbs / $19.99 ea" /></td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Silver Hills - Squirrelly Bread 600g / $3.99 ea" /></td>
 			</tr>
 			<tr>
-				<td>Cream</td>
-				<td>Potatoe</td>
-				<td>Bread</td>
-				<td>Spices</td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Carrot Bag 3lbs / $1.99 ea" /></td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Granny Smith Apples 5lb Bag / $2.99 ea" /></td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Avocado (Organic) / $1.00 ea" /></td>
+				<td><input readonly = "readonly" type = "text" onclick="AddToForm1(this)" value = "Mangoes / 2 for $3.99" /></td>
 				<td>Peanuts</td>
 			</tr>
 			<tr>
