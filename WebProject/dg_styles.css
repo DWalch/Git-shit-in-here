@@ -21,7 +21,6 @@ body * {
 	margin: 0px;	
 	padding: 0px;
 	vertical-align: baseline;
-	width:100%;	
 	
 }
 body{
@@ -192,21 +191,16 @@ footer address {
 	width: 15%;	
 }
 img{
-	
     width: 50%;
 }
+/*Slide Show Styles */
 
-/*address{
-	position: absolute;
-	left: 25%;
-     top: 10%;
+div#autoSlide {
+	display: block;
+	position: relative;
+}
+#myAutoSlide {
+	position: relative;
+	padding: 100px 250px;
 	
 }
-footer form{
-	width: 15%;
-	margin: 100px;
-	position: absolute;
-     left: 50%;
-     top: 50%;
-	
-}*/
