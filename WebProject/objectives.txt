@@ -1,0 +1,8 @@
+Project Objectives:
+
+1. Develop a web presence with multimedia, general store information and a suppliers list.
+2. Include a simple quick order form.
+3. Include an extended pick-up or delivery order form.
+4. Include a questions or comments form.
+5. Include a photo gallery page.
+6. Current product specials presented in a table.

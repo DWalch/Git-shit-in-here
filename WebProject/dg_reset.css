@@ -11,14 +11,12 @@
 /* Display HTML5 structural elements as blocks */
 
 article, aside, figure, figcaption, footer, hgroup, header, section, nav {  
- 
 	display: block; }
 	
 
 	/* Set the default page element styles */
 	
 body * {   
-
 	font-family: Verdana, Geneva, sans-serif;   
 	font-size: 100%;   
 	font-weight: inherit;   
